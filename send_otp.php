@@ -30,7 +30,7 @@ $otp = rand(100000,999999);
 
 $_SESSION['otp'] = $otp;
 $_SESSION['email'] = $email;
-$_SESSION['otp_expiry'] = time() + 300; // 5 minutes
+$_SESSION['otp_expiry'] = time() + 300; 
 
 $mail = new PHPMailer(true);
 
@@ -40,8 +40,8 @@ $mail->isSMTP();
 $mail->Host = 'smtp.gmail.com';
 $mail->SMTPAuth = true;
 
-$mail->Username = 'copycap92@gmail.com';
-$mail->Password = 'kgvc mrbz ovch wkqu'; // your app password
+$mail->Username = 'youremail';
+$mail->Password = 'your password'; 
 
 $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
 $mail->Port = 465;
