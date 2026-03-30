@@ -1,26 +1,26 @@
 # Lost-and-found
 Lost & Found Management System
-📌 Introduction
+Introduction
 
 The Lost & Found Management System is a web-based application designed to help users report lost items, post found items, and recover belongings efficiently. The system provides secure authentication with OTP-based password reset via email, ensuring user account security.
 
 This project is built using PHP, MySQL, HTML, CSS, and PHPMailer.
 
-🎯 Objectives
+Objectives:
 Provide a platform to report lost items
 Allow users to post found items
 Enable secure user authentication
 Implement OTP-based password recovery
 Improve item recovery efficiency
 
-⚙️ Technologies Used
+Technologies Used:
 Frontend: HTML, CSS
 Backend: PHP
 Database: MySQL
 Email Service: PHPMailer (Gmail SMTP)
 Server: XAMPP (Apache + MySQL)
 
-🔐 Authentication Features
+Authentication Features:
 User Registration
 User Login
 Password Hashing (Secure login)
@@ -29,7 +29,7 @@ Email OTP Verification
 Reset Password
 Auto Redirect after Reset
 
-👤 User Features
+User Features:
 Register new account
 Login securely
 Report lost items
@@ -37,7 +37,7 @@ Report found items
 Reset password using OTP
 Dashboard for user activities
 
-🔒 Security Features
+Security Features:
 Password hashing using password_hash()
 Password verification using password_verify()
 OTP-based password reset
@@ -45,7 +45,7 @@ OTP expiry (5 minutes)
 Email validation
 Session management
 
-🔄 How It Works
+How It Works:
 User Registration
 User creates account
 Details stored in database
@@ -114,7 +114,5 @@ Steps:
 Enable Google 2-Step Verification
 Generate App Password
 Add credentials in send_otp.php
-📌 Future Improvements
-OTP verified
-User resets password
-Redirect to login page
+
+youtube video demonstration link:https://youtu.be/YGrXrCxaVkI?si=Iz1X1i2GYGIve8HL 
