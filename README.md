@@ -12,12 +12,14 @@ Allow users to post found items
 Enable secure user authentication
 Implement OTP-based password recovery
 Improve item recovery efficiency
+
 ⚙️ Technologies Used
 Frontend: HTML, CSS
 Backend: PHP
 Database: MySQL
 Email Service: PHPMailer (Gmail SMTP)
 Server: XAMPP (Apache + MySQL)
+
 🔐 Authentication Features
 User Registration
 User Login
@@ -26,7 +28,7 @@ Forgot Password
 Email OTP Verification
 Reset Password
 Auto Redirect after Reset
-✨ Features
+
 👤 User Features
 Register new account
 Login securely
@@ -34,6 +36,7 @@ Report lost items
 Report found items
 Reset password using OTP
 Dashboard for user activities
+
 🔒 Security Features
 Password hashing using password_hash()
 Password verification using password_verify()
@@ -41,6 +44,7 @@ OTP-based password reset
 OTP expiry (5 minutes)
 Email validation
 Session management
+
 🔄 How It Works
 User Registration
 User creates account
@@ -55,6 +59,7 @@ User clicks Forgot Password
 User enters registered email
 System sends OTP to email
 User enters OTP
+
 Installation / Setup
 Step 1
 
