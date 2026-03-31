@@ -1,8 +1,8 @@
-# Lost-and-found
-Lost & Found Management System
+# Adbu Lost and found portal
+Adbu Lost & Found Portal
 Introduction
 
-The Lost & Found Management System is a web-based application designed to help users report lost items, post found items, and recover belongings efficiently. The system provides secure authentication with OTP-based password reset via email, ensuring user account security.
+The Adbu Lost & Found is a web based application designed to help users report lost items, post found items, and recover belongings efficiently. The system provides secure authentication with OTP-based password reset via email, ensuring user account security.
 
 This project is built using PHP, MySQL, HTML, CSS, and PHPMailer.
 
@@ -115,4 +115,4 @@ Enable Google 2-Step Verification
 Generate App Password
 Add credentials in send_otp.php
 
-youtube video demonstration link:https://youtu.be/YGrXrCxaVkI?si=Iz1X1i2GYGIve8HL 
+youtube video demonstration link:https://youtu.be/xHa7sdXuoXA?si=Sp5DdIw4x4ynd0i4
